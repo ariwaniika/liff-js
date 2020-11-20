@@ -1,6 +1,6 @@
 window.onload = function() {
     const useNodeJS = true;   // if you are not using a node server, set this value to false
-    const defaultLiffId = "";   // change the default LIFF value if you are not using a node server
+    const defaultLiffId = "1654893906-zZ9xVQ4W";   // change the default LIFF value if you are not using a node server
 
     // DO NOT CHANGE THIS
     let myLiffId = "1654893906-zZ9xVQ4W";
