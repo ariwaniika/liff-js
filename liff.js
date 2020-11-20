@@ -1,3 +1,5 @@
+<!--
+
 $(document).ready(function () {
     // liffId: LIFF URL "https://liff.line.me/xxx"のxxxに該当する箇所
     // LINE DevelopersのLIFF画面より確認可能
@@ -23,6 +25,8 @@ function initializeLiff(liffId) {
             console.log('LIFF Initialization failed ', err);
         });
 }
+
+-->
 
 function sendText(text) {
     if (!liff.isInClient()) {
