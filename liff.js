@@ -4,6 +4,7 @@ $(document).ready(function () {
     var liffId = "1654150367-Agq5Vdp1";
     initializeLiff(liffId);
     sendText("send massage!!");
+    shareTargetPicker("send massage!!!");
 })
 
 function initializeLiff(liffId) {
