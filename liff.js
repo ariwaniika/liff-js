@@ -3,7 +3,6 @@
 
 
 function sendText(text) {
-    alert("アラートダイアログを表示します。");
     if (!liff.isInClient()) {
         shareTargetPicker(text);
     } else {
