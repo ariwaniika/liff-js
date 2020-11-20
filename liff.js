@@ -3,6 +3,7 @@ $(document).ready(function () {
     // LINE DevelopersのLIFF画面より確認可能
     var liffId = "1654150367-Agq5Vdp1";
     initializeLiff(liffId);
+    sendText("send massage!!");
 })
 
 function initializeLiff(liffId) {
