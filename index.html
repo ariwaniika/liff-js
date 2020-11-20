@@ -84,8 +84,8 @@ liffId: "1654893906-zZ9xVQ4W"
 
 }).then(() => { // 初期化完了. 以降はLIFF SDKの各種メソッドを利用できる
 
-	//val st = JSON.parse(liff.getContext());
-	sendText(JSON.parse(liff.getContext()).toString());
+	const st = JSON.parse(liff.getContext());
+	sendText(liff.getContext().toString());
 	
 	
 })
