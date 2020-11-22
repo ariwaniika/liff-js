@@ -87,9 +87,11 @@ liffId: "1654893906-zZ9xVQ4W"
 	//const st = JSON.parse(liff.getContext());
 	 var url = location.search;
 	 //window.alert(liff.getContext().userId);
-	 window.alert(url);
-	//sendText(liff.getContext());
 	
+	if(url.indexOf("liff.state") == -1){ 
+		window.alert(url);
+		//sendText(liff.getContext());
+	}
 	
 })
 </script>
